@@ -1,0 +1,171 @@
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+    /*background-image: url(../img/bg.jpg);
+    background-size: cover;
+    color: blue;*/
+    
+}
+
+body#corpo{
+    background-image: url(../img/bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.flex-container > * {
+    padding: 0em;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+article {
+    text-align: justify;    
+    color: black;
+    background-color: white;
+    max-width: 50em; 
+    margin: 10px;
+    border-radius: 30px;
+}
+
+nav#nav {
+    background: rgba(100,7,2,.5);
+    
+}
+
+header {
+    /*background: rgba(100,7,2,.5);*/
+    text-align: left;
+    color:black;
+    font-size: 2.0em;
+}
+
+footer {
+    background-color: gainsboro;
+    color: black;
+    text-align: center;
+    
+}
+
+#texto {    
+    padding-left: 15em;
+    text-align: justify;
+    float: left;
+    
+}
+
+img {      
+    float:left;
+    margin:0px 20px 0px 0px;
+    width: 200px;
+    height: 200px; 
+    border-radius: 30px;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+h2{
+    text-align: left;
+    font-size: 2em;
+}
+
+ul {
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+p {
+    margin-right: 1em;
+}
+
+/*========= SOBRE =========*/
+
+.sobre_mim {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+}
+
+.sobre {
+    width: 100%;
+    background-color: white;
+    text-align: left;
+    border-radius: 7px;
+    margin-bottom: 2%;
+}
+
+.sobre img {
+    border-radius: 7px 7px 0 0;
+}
+
+.inner {
+    padding: 7%;
+}
+
+.inner a {
+    font-size: 2.2em;
+    color: darkgrey;
+    font-weight: 700;
+    margin-top=0;
+    padding: 4%;
+}
+
+.inner a:hover {
+    transition: 0.2s;
+    color: #da6709;
+}
+
+
+.inner h3 {
+    font-size: 1.5em;
+    color: #da6709;
+    font-weight: 700;
+    margin-top=0;
+}
+
+
+.inner h4 {
+    font-size: 1.1em;
+    color: #130400;
+    font-weight: 700;
+    margin-top: 1%;
+}
+
+.inner p {
+    color: #130400;
+    line-height: 1.5em;
+
+}
+
+.sobre ul {
+    padding-left: 10%;
+    list-style: disc;
+    line-height: 1.5em;
+}
+
+
+
